@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon"  href="head.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="head.ico" type="image/x-icon"/>
+<link rel="Bookmark" href="head.ico">
+
+<meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />     
+<meta name="apple-mobile-web-app-capable" content="yes" />    
+<meta name="format-detection" content="telephone=no" />   
+
+<title id="title1">你活了多少天？</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<SCRIPT language=javascript src="sum.js">
+
+$(function() { 
+     $.get('update.php?id=1',{r:Math.random()},function(num) { 
+     $('#hit').html(num); 
+     }); 
+     }); 
+	 
+</script>
+
+<style>
+
+body 
+{ font: normal 100% Helvetica, Arial, sans-serif; }  
+
+h1 { font-size: 1.5em; }  
+
+small { font-size: 0.875em; }  
+
+.main { float: right; width: 70%; } .leftBar { float: left; width: 25%; }  
+
+img { max-width: 100%;} 
+
+</style>
+
+
+
+<body  bgcolor="#000000">
+<table width="100%" border="0"style="width:100%"  >
+  <tr>
+    <th colspan="2" scope="col"><div align="left"></div>      <div  id="line0" style="visibility:hidden"align="left"><img src="word1.png" width="343" height="26"  />      </div></th>
+
+  </tr>
+  <tr>
+    <th colspan="2" scope="col"></th>
+  </tr>
+  <tr>
+    <th height="290" colspan="2" scope="col"><img src="back02.png" width="311" height="331"  /></th>
+  </tr>
+  <tr>
+    <th height="60" colspan="2" scope="col">
+    <font id="days"  face="Courier New, Courier, monospace"  color="#FFFF00" size="+6" ></font>
+    <font id="da"  color="#FFFF00" face="Arial, Helvetica, sans-serif" style="visibility:hidden" size="+3" >天</font>
+    </th>
+  </tr>
+  <tr>
+    <th height="214" colspan="2" scope="col"><p></p></th>
+  </tr>
+  <tr>
+    <th height="88" colspan="2" scope="col">
+    <div id="line" align="left" style="visibility:hidden">
+       <font size="+3" color="#999999">你离</font>
+        <font   face="Courier New, Courier, monospace" id="ages" color="#999999"  size="+4"></font>
+      <font size="+3" color="#999999">岁还有</font>
+    </div>
+    <font id="days40"    color="#999999"  face="Courier New, Courier, monospace" size="+4" ></font>
+    <font  size="+2"face="Courier New, Courier, monospace"  color="#999999" style="visibility:hidden" id="da1">天</font>
+    </th>
+  </tr>
+  <tr>
+    <th height="76" colspan="2" scope="col"><p></p></th>
+  </tr>
+  <tr>
+    <th height="50" colspan="2" scope="col"><div id="line1" align="left" style="visibility:hidden">
+    <font size="+4" color="#CCCCCC" face="Georgia, Times New Roman, Times, serif">你找到你的梦想了吗</font>
+    </div><a href="connect.html"><div align="right"></div></a></th>
+  </tr>
+  <tr>
+    <th height="313" colspan="2" scope="col"></th>
+  </tr>
+  <tr>
+    <th height="64" colspan="2" scope="col">
+      
+      <div  align="left">
+      <font size="+0" color="#CCCCCC">点击右上角分享到朋友圈↗</font>
+      </div>
+        
+    </th>
+  </tr>
+  <tr>
+    <th width="34%" height="65" scope="col">&nbsp;</th>
+    <th width="66%" scope="col">
+    <div align="right">
+    <a href="connect.html">
+    <img src="wordcon.png" width="82" height="19" />
+    <img src="mouse.png" width="55" height="60" />
+    </a>
+    </div>
+    </th>
+  </tr>
+</table>
+</body>
+
+
+
+
+
+</html>
